@@ -15,7 +15,7 @@ x-airflow-common:
     - ./dag:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
-  user: "5000"
+  user: "50000"
   depends_on:
     &airflow-common-depends-on
     redis:
